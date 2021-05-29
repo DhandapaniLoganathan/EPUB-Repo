@@ -25,9 +25,9 @@ def zipdir(path,tmpf):
 
 # Connect to the database.
 try:
-    connection = pymysql.connect(host='192.168.2.212',
-                             user='pythondev',
-                             password='@jouve123',
+    connection = pymysql.connect(host='192.168.0.1',
+                             user='username',
+                             password='pwd',
                              db='imep',
                              charset='utf8mb4',
                              cursorclass=pymysql.cursors.DictCursor)
